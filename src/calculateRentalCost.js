@@ -4,7 +4,8 @@
  * @return {number}
  */
 function calculateRentalCost(days) {
-  const sum = days * 40;
+  const DAILY_RENT = 40;
+  const sum = days * DAILY_RENT;
   const MID_TERM = 3;
   const LONG_TERM = 7;
   const MID_TERM_DISCOUNT = 20;
